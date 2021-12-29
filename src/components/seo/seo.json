@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "index": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "follow": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
